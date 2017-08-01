@@ -1,0 +1,33 @@
+
+button,
+div
+{
+ margin-right: 10px;
+}
+
+button {
+	background-color: #20B2AA;
+    color: white;
+}
+ 
+input {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      margin-left: 15px;
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit], input[type=reset] {
+    background-color: #20B2AA;
+    color: white;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+  /* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #66CDAA;
+}
